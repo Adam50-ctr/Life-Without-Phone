@@ -138,19 +138,23 @@ ul {
 
 /* The betatitle in the home page */
 .liltitle {
+  font-family: "Poppins", sans-serif;
   color: #27ae60;
   font-size: 3rem;
-  margin-bottom: 5rem;
-  margin-right: 27rem;
-  margin-left: 2.7rem;
+  margin: 9rem 27rem 3rem 2.7rem;
+  letter-spacing: 1px;
+  font-weight: 600;
 }
 
 /* text */
 .text {
-  font-size: 1.6rem;
-  margin-left: 6rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  margin-left: 8rem;
   margin-right: 10rem;
-  text-align: left;
+  text-align: justify;
+  color: #333;
+  line-height: 1.65;
 }
 
 /* Animated clock */
@@ -161,6 +165,8 @@ svg {
 }
 
 .animated-clock {
+  margin-top: 3rem;
+  margin-bottom: -7rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -168,9 +174,9 @@ svg {
 
 /* The text on the clock */
 .time-text {
-  font-size: 11px;
+  font-size: 10px;
   fill: #333;
-  font-style: italic;
+  font-style: oblique;
 }
 
 /* Trophie image */
